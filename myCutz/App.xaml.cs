@@ -9,6 +9,7 @@ namespace myCutz
 			InitializeComponent();
 
 			MainPage = new myCutzPage();
+
 		}
 
 		protected override void OnStart()
