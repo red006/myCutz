@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="myCutz.signUpPage">
 	<ContentPage.Content>
-	<StackLayout Spacing = "2">
-	<Label Text = "" />
-		<Label Text = "" />
-	    <Label Text = "First Name:" Font="Bold,5"/><Entry Placeholder = "First Name" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-	<Label Text = "Last Name:" Font="Bold,5"/><Entry Placeholder = "Last Name" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/> 
-    <Label Text = " We will call you by:" Font="Bold,5"/> <Entry Placeholder = "Username/Nickname" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/> <Label Text = "(This can also be your first name or whatever you'd like :) )" Font="Bold,5"/>
-	<Label Text = "Address:" Font="Bold,5"/><Entry Placeholder = "Address" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-	<Label Text = "Email:" Font="Bold,5"/><Entry Placeholder = "Email" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
-	<Label Text = "Password:" Font="Bold,5"/><Entry Placeholder = "Password" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" IsPassword = "true"/> <Label Text = "(At least 6 characters and a number or symbol)" Font="Bold,5"/>
-	<Button Text="Sign Up" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"  />
+	<StackLayout Spacing = ".5">
+	<Label Text = " " />
+	<Label Text = " " />
+	<Label Text = "First Name:" Font="Bold,7"/><Entry Placeholder = "First Name" VerticalOptions="Center" HorizontalOptions="Center"/>
+	<Label Text = "Last Name:" VerticalOptions="Start" Font="Bold,7"/><Entry Placeholder = "Last Name" VerticalOptions="Center" HorizontalOptions="Center"/> 
+    <Label Text = "We will call you by:" VerticalOptions="Start" Font="Bold,7"/> <Entry Placeholder = "Username/Nickname" VerticalOptions="Center" HorizontalOptions="Center"/> <Label Text = "(This can also be your first name or whatever you'd like :) )" Font="Bold,7"/>
+	<Label Text = "Address:" VerticalOptions="Start" Font="Bold,7"/><Entry Placeholder = "Address" VerticalOptions="Center" HorizontalOptions="Center"/>
+	<Label Text = "Email:" VerticalOptions="Start" Font="Bold,7"/><Entry Placeholder = "Email" VerticalOptions="Center" HorizontalOptions="Center"/>
+	<Label Text = "Password:" VerticalOptions="Start" Font="Bold,7"/><Entry Placeholder = "Password" VerticalOptions="Center" HorizontalOptions="Center" IsPassword = "true"/> <Label Text = "(At least 6 characters and a number or symbol)" Font="Bold,7"/>
+	<Button Text="Sign Up" VerticalOptions="CenterAndExpand" HorizontalOptions="Center"  />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
